@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-container">
+
+  <div class="w3-dropdown-click">
+    <button onclick="myFunction()" class="dropdown-q">How to book an appointment with Dr. Sheikh Muhammad Sohail ?</button>
+    <div id="Demo" class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="#" class="w3-bar-item w3-button">Click HERE to book an appointment with Dr. Sheikh Muhammad Sohail. Or, you can also call at 0915815042 from 9 AM to 7 PM to book an appointment with Dr. Sheikh Muhammad Sohail</a>
+     
+      
+    </div>
+  </div>
+  
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+<br><br>
+<br><br>
+
+<br><br>
+
+<br><br>
+
+<div class="w3-container">
+
+    <div class="w3-dropdown-click">
+      <button onclick="myFunction1()" class="dropdown-q">What is the fee of Dr. Sheikh Muhammad Sohail?</button>
+      <div id="Demo1" class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Dr. Sheikh Muhammad Sohail charges Rs. 1000 for consultation.</a>
+       
+        
+      </div>
+    </div>
+    
+  </div>
+  
+  <script>
+  function myFunction1() {
+    var x = document.getElementById("Demo1");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+ 
+
+  </script>
+  <br>
+  <br>
+  <div class="w3-container">
+
+    <div class="w3-dropdown-click">
+      <button onclick="myFunction2()" class="dropdown-q">What is the qualification of Dr. Sheikh Muhammad Sohail?</button>
+      <div id="Demo2" class="w3-dropdown-content w3-bar-block w3-border">
+        <a href="#" class="w3-bar-item w3-button">Dr. Sheikh Muhammad Sohail has the following degrees: MBBS, FCPS, MRCP</a>
+       
+        
+      </div>
+    </div>
+    
+  </div>
+  
+  <script>
+  function myFunction2() {
+    var x = document.getElementById("Demo2");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+</body>
+</html>

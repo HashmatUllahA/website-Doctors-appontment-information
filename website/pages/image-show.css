@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.h1{
+    text-align: center;
+    color: brown;
+}
+.scroll{
+    width: 570px;
+    
+    border: 2px solid black;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.scroll-card{
+    width: 800px;
+    height: 500px;
+    border: 0px;
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    transform: 1s;
+}
